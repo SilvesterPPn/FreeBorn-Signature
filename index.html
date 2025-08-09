@@ -45,6 +45,14 @@
       </a>
 
       <div class="nav__menu" id="nav-menu">
+        <div class="nav__menu-top">
+          <a href="index.html" class="nav__menu-logo"><img src="assets/img/freeborn-logo.png" alt=""></a>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fi fi-rs-cross-small"></i>
+          </div>
+        </div>
+
         <ul class="nav__list">
           <li class="nav__item">
             <a href="index.html" class="nav__link active-link">Home</a>
@@ -84,6 +92,10 @@
           <img src="assets/img/icon-cart.svg" alt="">
           <span class="count">3</span>
         </a>
+
+        <div class="header__action-btn nav__toggle" id="nav-toggle">
+          <img src="assets/img/menu-burger.svg" alt="">
+        </div>
       </div>
     </nav>
   </header>
@@ -154,11 +166,10 @@
     <!-- ----------- PRODUCTs --------------- -->
     <section class="products section container">
       <div class="tab__btns">
-        <span class="tab__btn featured-btn active-tab" data-target="#featured">Featured</span>
+        <span class="tab__btn active-tab" data-target="#featured">Featured</span>
         <span class="tab__btn" data-target="#popular">Popular</span>
         <span class="tab__btn" data-target="#new-added">New Added</span>
       </div>
-
 
       <div class="tab__items">
         <div class="tab__item active-tab" content id="featured">
@@ -634,7 +645,479 @@
 
           </div>
         </div>
-        <div class="tab__item active-tab" content id="popular">
+        <div class="tab__item" content id="popular">
+          <div class="products__container grid">
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/stone-wash 10.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 9.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Stone Wash Shirt</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#35,000</span>
+                  <span class="old__price">#38,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img default">
+                  <img src="assets/img/tank-top.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Tank Top</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#25,000</span>
+                  <span class="old__price">#28,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/head-warmer-2.jpg" alt="" class="product__img default">
+                  <img src="assets/img/head-warmer-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-orange">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Head Warmer</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#15,000</span>
+                  <span class="old__price">#18,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-blue">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Stone Wash</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#35,000</span>
+                  <span class="old__price">#38,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img default">
+                  <img src="assets/img/head-warmer-3.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-pink">-10%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Pair Signature</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#48,000</span>
+                  <span class="old__price">#56,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/stone-wash 10.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 8.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Stone Wash T-Shirt</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#70,000</span>
+                  <span class="old__price">#76,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img default">
+                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-pink">Pairs</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Signature Pair</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#60,000</span>
+                  <span class="old__price">#66,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/head-warmer-2.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 11.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-pink">Pairs</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Signature Pair</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#50,000</span>
+                  <span class="old__price">#56,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img default">
+                  <img src="assets/img/tank-top.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Stone Wash</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#70,000</span>
+                  <span class="old__price">#76,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 8.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action__btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+                </div>
+
+                <div class="product__badge light-green">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Stone Wash</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">#70,000</span>
+                  <span class="old__price">#76,000</span>
+                </div>
+
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab__item" content id="new-added">
           <div class="products__container grid">
             <div class="product__item">
               <div class="product__banner">
@@ -780,8 +1263,8 @@
             <div class="product__item">
               <div class="product__banner">
                 <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img default">
-                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img hover">
+                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img hover">
                 </a>
 
                 <div class="product__actions">
@@ -827,8 +1310,8 @@
             <div class="product__item">
               <div class="product__banner">
                 <a href="details.html" class="product__images">
-                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img default">
-                  <img src="assets/img/head-warmer-3.jpg" alt="" class="product__img hover">
+                  <img src="assets/img/head-warmer-3.jpg" alt="" class="product__img default">
+                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img hover">
                 </a>
 
                 <div class="product__actions">
@@ -874,8 +1357,8 @@
             <div class="product__item">
               <div class="product__banner">
                 <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 8.jpg" alt="" class="product__img default">
-                  <img src="assets/img/stone-wash 10.jpg" alt="" class="product__img hover">
+                  <img src="assets/img/stone-wash 10.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 8.jpg" alt="" class="product__img hover">
                 </a>
 
                 <div class="product__actions">
@@ -921,8 +1404,8 @@
             <div class="product__item">
               <div class="product__banner">
                 <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img default">
-                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img hover">
+                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img default">
+                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img hover">
                 </a>
 
                 <div class="product__actions">
@@ -1003,150 +1486,6 @@
                 <div class="product__price flex">
                   <span class="new__price">#50,000</span>
                   <span class="old__price">#56,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img default">
-                  <img src="assets/img/tank-top.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-green">Hot</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Stone Wash</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#70,000</span>
-                  <span class="old__price">#76,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img default">
-                  <img src="assets/img/stone-wash 8.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-green">Hot</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Stone Wash</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#70,000</span>
-                  <span class="old__price">#76,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab__item active-tab" content id="new-added">
-          <div class="products__container grid">
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 11.jpg" alt="" class="product__img default">
-                  <img src="assets/img/stone-wash 9.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-pink">Hot</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Stone Wash Shirt</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#35,000</span>
-                  <span class="old__price">#38,000</span>
                 </div>
 
                 <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
@@ -1159,335 +1498,7 @@
               <div class="product__banner">
                 <a href="details.html" class="product__images">
                   <img src="assets/img/tank-top.jpg" alt="" class="product__img default">
-                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-green">Hot</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Tank Top</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#25,000</span>
-                  <span class="old__price">#28,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/head-warmer-1.jpg" alt="" class="product__img default">
-                  <img src="assets/img/head-warmer-2.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-orange">Hot</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Head Warmer</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#15,000</span>
-                  <span class="old__price">#18,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img default">
-                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-blue">Hot</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Stone Wash</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#35,000</span>
-                  <span class="old__price">#38,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img default">
-                  <img src="assets/img/head-warmer-3.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-pink">-10%</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Pair Signature</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#48,000</span>
-                  <span class="old__price">#56,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 8.jpg" alt="" class="product__img default">
-                  <img src="assets/img/stone-wash 10.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-pink">Hot</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Stone Wash T-Shirt</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#70,000</span>
-                  <span class="old__price">#76,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 7.jpg" alt="" class="product__img default">
-                  <img src="assets/img/tank-top 2.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-pink">Pairs</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Signature Pair</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#60,000</span>
-                  <span class="old__price">#66,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 11.jpg" alt="" class="product__img default">
-                  <img src="assets/img/head-warmer-2.jpg" alt="" class="product__img hover">
-                </a>
-
-                <div class="product__actions">
-                  <a href="#" class="action__btn" aria-label="Quick View">
-                    <i class="fi fi-rs-eye"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Add To Wishlist">
-                    <i class="fi fi-rs-heart"></i>
-                  </a>
-
-                  <a href="#" class="action__btn" aria-label="Compare">
-                    <i class="fi fi-rs-shuffle"></i>
-                  </a>
-                </div>
-
-                <div class="product__badge light-pink">Pairs</div>
-              </div>
-
-              <div class="product__content">
-                <span class="product__category">Clothing</span>
-                <a href="details.html">
-                  <h3 class="product__title">Signature Pair</h3>
-                </a>
-                <div class="product__rating">
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                  <i class="fi fi-rs-star"></i>
-                </div>
-                <div class="product__price flex">
-                  <span class="new__price">#50,000</span>
-                  <span class="old__price">#56,000</span>
-                </div>
-
-                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-                  <i class="fi fi-rs-shopping-bag-add"></i>
-                </a>
-              </div>
-            </div>
-
-            <div class="product__item">
-              <div class="product__banner">
-                <a href="details.html" class="product__images">
-                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img default">
-                  <img src="assets/img/tank-top.jpg" alt="" class="product__img hover">
+                  <img src="assets/img/stone-wash 6.jpg" alt="" class="product__img hover">
                 </a>
 
                 <div class="product__actions">
@@ -1578,7 +1589,6 @@
             </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
 
