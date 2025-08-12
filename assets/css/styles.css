@@ -1552,7 +1552,7 @@ margin-bottom: 1rem;
 /* ------------- for large devices ------------*/
 @media screen and (max-width: 1400px) {
   .container {
-    max-width: 1140px;
+    max-width: 1000px;
   }
 
   .products__container,
@@ -1567,7 +1567,7 @@ margin-bottom: 1rem;
 
 @media screen and (max-width: 1200px) {
   .container {
-    max-width: 960px;
+    max-width: 890px;
   }
 
   .header__top {
@@ -1638,6 +1638,7 @@ margin-bottom: 1rem;
 
   .nav__logo-img {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .nav__close {
@@ -1723,8 +1724,50 @@ margin-bottom: 1rem;
 
 /* -----------for medium device ------------*/
 @media screen and (max-width: 992px) {
-  
+  .container {
+    max-width: 700px;
+  }
+
+  .home__container,
+  .deals__container,
+  .checkout__container,
+  .accounts__container,
+  .newsletter__container {
+    grid-template-columns: 1fr;
+  }
+
+  .home__img {
+    justify-self: center;
+  }
+
+  .btn {
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .btn--md {
+    height: 42px;
+    line-height: 39px;
+  }
+
+  .btn-sm {
+    height: 38px;
+    line-height: 35px;
+  }
+
+  .newsletter__description {
+    display: none;
+  }
+
+  .products__container,
+  .showcase__container,
+  .footer__container,
+  .details__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
+
 
 @media screen and (max-width: 768px) {
   
